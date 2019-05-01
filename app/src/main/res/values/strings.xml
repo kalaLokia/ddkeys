@@ -1,0 +1,182 @@
+<resources>
+    <string name="app_name">ddKeys</string>
+    <string name="dungeon_key">ddKeys</string>
+    <string name="subtype">DRPG</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="version">Blaze 4.4.42 \n<i>updated on: September 17, 2018</i></string>
+
+    <!-- Navigation menu -->
+    <string name="home">Home</string>
+    <string name="preference">Preference</string>
+    <string name="faqs">FAQ</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+
+    <!-- Related to Navigation View Tab -->
+    <string name="my_info">"<i>made by <b>kalaLokia#4442</b></i>"</string>
+
+    <!-- Related to Home Keys Tab -->
+    <string name="disclaimer">"<u>DISCLAIMER :</u> \n\n<b>USE DDKEYS AT YOUR OWN RISK.</b>\n\n\t\t\tI, the developer of ddKeys, will not take any responsbilities for any consequences whatsoever which may result from using this app or any related actions." </string>
+    <string name="ddkeys_intro">https://docs.google.com/document/d/12TAvn6d4s1fBGvvzsfd_z2TKa5jWJnKBv4SZscaJLIU/edit?usp=drivesdk</string>
+    <string name="ddkeys_disclaimer">https://docs.google.com/document/d/1V9JvPxtEPybb39pBWQ_iLSGbVmq0UPXVd2AnqyWK_mc/edit?usp=drivesdk</string>
+    <string name="greetings">"Greetings fellow DRPG player!
+\n
+Thank you for choosing ddKeys. I hope it will serve you well on your many adventures just as it has helped me and my friends. Take time to review everything (especially the disclaimer) which I have included here, for you to be informed.
+\n
+With that being said, goodluck out there and have fun!"</string>
+
+    <!-- Related to About Tab -->
+    <string name="developer">"> kalaLokia#4442"</string>
+    <string name="thanksto">"> Yuna#7288\n> Athena#9999\n> Vishaakha8916\n> Harold Saxon#2239"</string>
+    <string name="references">"1. <a href="https://developer.android.com">Android Developers</a> [Google]\n2. <a href="https://stackoverflow.com">Stack Overflow</a>"</string>
+    <string name="download_link">https://drive.google.com/drive/folders/1MTP0Tu8jDexmt-OPQgBC6Un4JwHwZ4PI?usp=sharing</string>
+    <string name="download_link2">https://www.dropbox.com/sh/odm8nbum0t35hcu/AAB7oz60oWey2jWJ3GrgiiP0a?dl=0</string>
+    <!-- Related to Faq Tab -->
+    <string name="faq">
+    "<b>1. Will I get banned for using this app?
+    \nA:</b> Nope. <i>But if you use this keyboard just to spam on continuously without minding cooldown - YES, there is a chance.
+    \n[Note that the timers in ddkeys are optional. They may reset if app crashes or if you clear cache. IDK]</i>
+    \n
+    \n<b>2. Is it authorised by DiscordRPG developers ?
+    \nA:</b> No. <i>Before using the app in-game, it is  very important for you to validate all buttons by yourself. No one else (even I) take any responsibility for whatever issue you encounter by using this app.
+    \n</i>
+    \n<b>3. Why can\'t I press the sides button twice ?
+    \nA:</b> <i>The sides button and travel buttons are disabled when their respective timer runs. You can stop the timer and re-enable the keys back by tapping the reset button on ddkeys icon (hold on to view popupkeys).
+    \n[ Note: For sides, you can send the command by a long press which doesn\'t mind cooldown timer ]</i>
+    \n
+    \n<b>4. I\'m in a different location; how do I change location using ddKeys?
+    \nA:</b> <i>You can switch locations in ddKeys just by holding the location keys, which will not send a command</i>
+    \n
+    \n<b>5. Some additional features that may help you described in \"Into to ddKeys\" docs</b>
+
+        \n\n\n\nEnd…"
+</string>
+
+    <!-- Related to Preference  -->
+    <string name="customprefix">Input the prefix you prefer to use in ddKeys.</string>
+    <string name="customcommand">Set custom commands of your choice [exclusive prefix].</string>
+    <string name="healthnotify">Set the minimum number of adventures you take to heal.\n\nSuggest to use "Aldebaran" bot for better results.</string>
+
+    <!-- Subfragments of Fragment Preference Keys -->
+    <string name="new_prefix">Change Prefix</string>
+    <string name="custom_commands">Custom Command</string>
+    <string name="health_indicator">Health Indicator</string>
+    <string name="more_options">More Options</string>
+    <string name="content_desc_imgbtn">Confirm</string>
+    <string name="edittext_sample_hint">type here</string>
+
+    <string name="motext1t">Sides timer will show on keyboard</string>
+    <string name="motext2t">Travel keyboard is enabled</string>
+    <string name="motext3t">This will trigger below selected command(s)</string>
+    <string name="motext4t">This will trigger commands to switch xprate between 0% and 100%</string>
+    <string name="motext5t">This will trigger each sides command (no cooldown)</string>
+    <string name="motext6t">Shows adventure counts on keyboard</string>
+
+    <string name="motext1f">Sides timer will not show on keyboard</string>
+    <string name="motext2f">Travel keyboard is disabled</string>
+    <string name="motext3f">Not assigned anything on long press</string>
+    <string name="motext4f">Not assigned anything on long press</string>
+    <string name="motext5f">Not assigned anything on long press</string>
+    <string name="motext6f">Will not shows adventure counts on keyboard</string>
+
+    <string name="choose_boost">"xpboost"</string>
+    <string name="choose_rings">"xp|strength 💍"</string>
+
+    <string-array name="cckeys_item">
+        <item>Key 0</item>
+        <item>Key 1</item>
+        <item>Key 2</item>
+        <item>Key 3</item>
+        <item>Key 4</item>
+        <item>Key 5</item>
+        <item>Key 6</item>
+    </string-array>
+    <string-array name="cckeys_pos">
+        <item>Left</item>
+        <item>Right</item>
+    </string-array>
+    <string-array name="cckeys_type">
+        <item>Command</item>
+        <item>Label</item>
+    </string-array>
+
+    <!-- Related to layout files -->
+    <string name="prefix">prefix:</string>
+    <string name="cck">ccKeys:</string>
+
+    <string name="users">"User\'s   "</string>
+    <string name="reset_advcount">"<u>Reset count</u>"</string>
+    <string name="userr">user:</string>
+    <string name="pets">"Pet\'s   "</string>
+    <string name="pett">pet:</string>
+    <string name="feature">FEATURES</string>
+    <string name="longpress">LONG PRESS</string>
+    <string name="showstimer">Show sides timer</string>
+    <string name="enabletkeyboard">"Enable travel keyboard"</string>
+    <string name="show_advcount">Show adventure count</string>
+    <string name="enablekey1">On advKeys</string>
+    <string name="enablekey10">"On \"pet\" key"</string>
+    <string name="enablekey25">On sidesKeys</string>
+    <string name="effectchange">"To effect these modification restart keyboard by swapping with other keyboard"</string>
+
+
+    <string name="enableddkeys">Enable ddKeys</string>
+    <string name="chooseddkeys">Choose ddKeys</string>
+    <string name="testddkeys">TEST DDKEYS</string>
+    <string name="introkey">Intro to ddKeys</string>
+    <string name="taphere">tap here</string>
+    <string name="ver">Version</string>
+    <string name="designdev">"Designed and Developed by,"</string>
+    <string name="spthabks">"Special Thanks To,"</string>
+    <string name="ref">References</string>
+    <string name="entercmdhere">Enter command here</string>
+
+    <string name="sideslist">"  ⛏  Mine,  🌲 Chop,  🍎 Forage,  🐟 Fish"</string>
+
+    <string name="place1">"\n\n  ⛏  Mine, 🌲 Chop, 🍎 Forage, 🐟 Fish\n 🌐 Market Access\n ✔ NPCs\n ✔ Field\n ✨ Rare Items: Oak [5](🌲)"</string>
+    <string name="place2">"\n\n  ⛏  Mine, 🌲 Chop, 🍎 Forage, 🐟 Fish\n 🌐 Market Access\n ✔ Field\n ✨ Rare Items: Maple* [15], Willow [10](🌲)\n\n ❌ NPCs "</string>
+    <string name="place3">"\n\n  ⛏  Mine, 🌲 Chop, 🍎 Forage, 🐟 Fish\n ✨ Rare Items: Poplar [30](🌲), Tuna* [3](🐟)\n\n ❌ Market Access\n ❌ NPCs\n ❌ Field  "</string>
+    <string name="place4">"\n\n  ⛏  Mine, 🌲 Chop, 🍎 Forage, 🐟 Fish\n 🌐 Market Access\n ✔ NPCs\n ✔ Field\n ✨ Rare Items: Willow[10](🌲) "</string>
+    <string name="place5">"\n\n ✔ NPCs\n\n ❌ SIDES\n ❌ Market Access\n ❌ Field "</string>
+    <string name="place6">"\n\n  ⛏  Mine, 🌲 Chop, 🍎 Forage, 🐟 Fish\n ✔ NPCs\n\n ❌ Market Access\n ❌ Field  "</string>
+    <string name="place7">"\n\n  ⛏  Mine, 🌲 Chop, 🍎 Forage, 🐟 Fish\n ✔ NPCs\n\n ❌ Market Access\n ❌ Field  "</string>
+    <string name="place8">"\n\n  ⛏  Mine, 🌲 Chop, 🍎 Forage, 🐟 Fish\n 🌐 Market Access\n ✔ NPCs\n\n ❌ Field "</string>
+    <string name="place9">"\n\n  ⛏  Mine (only) : Silverkeep Essence* | Rocks\n ✔ NPCs\n\n ❌ Adventure\n ❌ Chop, Forage, Fish\n ❌ Market Access\n ❌ Field "</string>
+    <string name="place10">"\n\n  ⛏  Mine, 🌲 Chop, 🍎 Forage, 🐟 Fish\n ✔ Field\n ✨ Rare Items: Ash* [25](🌲)\n\n ❌ Market Access\n ❌ NPCs "</string>
+    <string name="place11">"\n\n  ⛏  Mine, 🌲 Chop, 🍎 Forage, 🐟 Fish\n ✔ NPCs\n\n ❌ Market Access\n ❌ Field  "</string>
+    <string name="place12">"\n\n  ⛏  Mine (only) : Copperfall Essence* | Rocks\n\n ❌ Adventure\n ❌ Chop, Forage, Fish\n ❌ Market Access\n ❌ NPCs\n ❌ Field "</string>
+
+    <string name="place20">"\n\n ✔ NPCs\n\n ❌ SIDES\n ❌ Market Access\n ❌ Field "</string>
+    <string name="place21">"\n\n  ⛏  Mine, 🌲 Chop, 🍎 Forage, 🐟 Fish\n 🌐 Market Access\n ✔ NPCs\n ✨ Rare Items: Fir, Pine [10](🌲)\n\n ❌ Field "</string>
+    <string name="place23">"\n\n  ⛏  Mine, 🌲 Chop, 🍎 Forage, 🐟 Fish\n\n ❌ Market Access\n ❌ NPCs\n ❌ Field "</string>
+    <string name="place24">"\n\n ✔ NPCs\n\n ❌ SIDES\n ❌ Market Access\n ❌ Field "</string>
+
+    <string name="place30">"\n\n  ⛏  Mine, 🌲 Chop, 🍎 Forage, 🐟 Fish\n 🌐 Market Access\n ✨ Rare Items: Lychees* (🍎)\n\n ❌ NPCs\n ❌ Field "</string>
+    <string name="place31">"\n\n  ⛏  Mine (only)\n ✨ Rare Items: Gold ore* [30](⛏)\n\n ❌ Chop, Forage, Fish\n ❌ Market Access\n ❌ NPCs\n ❌ Field "</string>
+    <string name="place32">"\n\n  ⛏  Mine, 🌲 Chop, 🍎 Forage, 🐟 Fish\n 🌐 Market Access\n ✔ NPCs\n\n ❌ Field "</string>
+    <string name="place33">"\n\n ❌ SIDES\n ❌ Market Access\n ❌ NPCs\n ❌ Field"</string>
+    <string name="place34">"\n\n ✨ Rare Items: Sandy Toilet Paper (🗡)\n\n ❌ SIDES\n ❌ Market Access\n ❌ NPCs\n ❌ Field "</string>
+    <string name="place35">"\n\n ✔ NPCs\n\n ❌ SIDES\n ❌ Market Access\n ❌ Field "</string>
+    <string name="place36">"\n\n  ⛏  Mine (only) : Sariila Essence* | Rocks\n\n ❌ Adventure\n ❌ Chop, Forage, Fish\n ❌ Market Access\n ❌ NPCs\n ❌ Field "</string>
+
+    <string name="place40">"\n\n ✔ NPCs\n\n ❌ SIDES\n ❌ Market Access\n ❌ Field "</string>
+    <string name="place41">"\n\n ✔ NPCs\n\n ❌ SIDES\n ❌ Market Access\n ❌ Field "</string>
+    <string name="place42">"\n\n  🍎 Forage (only)\n 🌐 Market Access\n ✔ NPCs\n ✔ Field\n\n ❌ Mine, Chop, Fish "</string>
+    <string name="place43">"\n\n 🌲 Chop (only)\n ✔ NPCs\n\n ❌ Mine, Forage, Fish\n ❌ Market Access\n ❌ Field "</string>
+    <string name="place44">"\n\n ✔ NPCs\n\n ❌ SIDES\n ❌ Market Access\n ❌ Field "</string>
+    <string name="place45">"\n\n ⛏  Mine (only)\n ✔ NPCs\n\n ❌ Chop, Forage, Fish\n ❌ Market Access\n ❌ Field "</string>
+    <string name="place46">"\n\n ✔ NPCs\n\n ❌ SIDES\n ❌ Market Access\n ❌ Field "</string>
+    <string name="place47">"\n\n ✔ NPCs\n\n ❌ SIDES\n ❌ Market Access\n ❌ Field "</string>
+    <string name="place48">"\n\n  ⛏  Mine, 🌲 Chop, 🍎 Forage\n 🌐 Market Access\n ✔ NPCs\n\n ❌ Fish\n ❌ Field "</string>
+
+    <string name="place50">"\n\n ✔ NPCs\n\n ❌ SIDES\n ❌ Market Access\n ❌ Field"</string>
+    <string name="place51">"\n\n 🌐 Market Access\n ✔ Field\n\n ❌ SIDES\n ❌ NPCs "</string>
+    <string name="place52">"\n\n  ⛏  Mine (only) : Ravengate Essence* | Rocks\n\n ❌ Adventure\n ❌ Chop, Forage, Fish\n ❌ Market Access\n ❌ NPCs\n ❌ Field "</string>
+    <string name="place53">"\n\n ✔ NPCs\n\n ❌ SIDES\n ❌ Market Access\n ❌ Field "</string>
+    <string name="place54">"\n\n ❌ SIDES\n ❌ Market Access\n ❌ NPCs\n ❌ Field"</string>
+    <string name="place55">"\n\n ❌ SIDES\n ❌ Market Access\n ❌ NPCs\n ❌ Field"</string>
+    <string name="place56">"\n\n ✨ Rare Items: Skull (🔎), Life Crystal* (🗡) \n\n ❌ SIDES\n ❌ Market Access\n ❌ NPCs\n ❌ Field"</string>
+    <string name="place57">"\n\n 🐟 Fish (only)\n\n ❌ Mine, Chop, Forage\n ❌ Market Access\n ❌ NPCs\n ❌ Field"</string>
+
+</resources>

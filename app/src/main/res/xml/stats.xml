@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="5dp"
+    android:keyHeight="7%p"
+    android:keyWidth="25%p"
+    android:verticalGap="5dp">
+    <Row>
+        <Key
+            android:codes="977"
+            android:keyLabel="skills" />
+        <Key
+            android:codes="500"
+            android:keyLabel="guild" />
+
+    </Row>
+    <Row>
+        <Key
+            android:codes="981"
+            android:keyLabel="achieves" />
+        <Key
+            android:codes="911"
+            android:keyLabel="inv" />
+    </Row>
+
+
+</Keyboard>

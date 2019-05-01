@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drpg.ddkeys.ddKeysView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/color_splash_4"
+    android:fitsSystemWindows="true"
+    android:keyBackground="@drawable/blaze_key_background"
+    android:keyPreviewLayout="@null"
+    android:keyTextColor="#ffffff"
+    android:popupLayout="@layout/popupkeys" />

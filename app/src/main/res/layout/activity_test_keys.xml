@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".app.testKeys">
+
+    <include
+        layout="@layout/ddk_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/shadow_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <EditText
+            android:id="@+id/testEdittext"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/transparent"
+            android:hint="@string/entercmdhere"
+            android:inputType=""
+            android:textColor="#aeb2b2"
+            android:textColorHint="#aeb2b2"
+            android:textCursorDrawable="@drawable/edittext_transparent"
+            android:textSize="14sp" />
+
+        <ImageButton
+            android:id="@+id/clear_text"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="right"
+            android:background="@android:color/transparent"
+            android:src="@drawable/btn_delete_all" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/shadow_bar" />
+
+    <TextView
+        android:id="@+id/textshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="65dp"
+        android:gravity="bottom"
+        android:maxLines="32"
+        android:scrollbars="vertical"
+        android:textColor="#c5d6d1"
+        android:textSize="14sp" />
+
+
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="5dp"
+    android:keyHeight="7%p"
+    android:keyWidth="30%p"
+    android:verticalGap="5dp"
+
+    >
+    <Row>
+        <Key
+            android:codes="725"
+            android:keyLabel="NPC's Primeval" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="726"
+            android:keyLabel="All Maps" />
+    </Row>
+</Keyboard>

@@ -1,0 +1,91 @@
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="3dp"
+    android:keyHeight="60dp"
+    android:keyWidth="10%p"
+    android:verticalGap="3dp">
+
+    <Row>
+        <Key
+            android:codes="888"
+            android:keyEdgeFlags="left"
+            android:keyHeight="176dp"
+            android:keyLabel="ADV"
+            android:keyWidth="40%p" />
+
+        <Key
+            android:codes="907"
+            android:keyLabel="MINE"
+            android:keyWidth="30%p" />
+        <Key
+            android:codes="905"
+            android:keyEdgeFlags="right"
+            android:keyLabel="CHOP"
+            android:keyWidth="30%p" />
+    </Row>
+
+    <Row>
+        <Key
+            android:codes="51"
+            android:keyEdgeFlags="left"
+            android:keyHeight="0dp"
+            android:keyWidth="40%p" />
+        <Key
+            android:codes="906"
+            android:keyLabel="FORAGE"
+            android:keyWidth="30%p" />
+        <Key
+            android:codes="908"
+            android:keyEdgeFlags="right"
+            android:keyLabel="FISH"
+            android:keyWidth="30%p" />
+    </Row>
+
+    <Row android:keyHeight="50dp">
+        <Key
+            android:codes="51"
+            android:keyHeight="0dp"
+            android:keyWidth="40%p" />
+        <Key
+            android:codes="201"
+            android:keyLabel="O_o"
+            android:keyWidth="12%p"
+            android:popupKeyboard="@xml/customkeys_left" />
+        <Key
+            android:codes="334"
+            android:keyLabel="Undefined"
+            android:keyWidth="36%p"
+            android:popupKeyboard="@xml/market" />
+        <Key
+            android:codes="202"
+            android:keyEdgeFlags="right"
+            android:keyLabel="o_O"
+            android:keyWidth="12%p"
+            android:popupKeyboard="@xml/customkeys_right" />
+    </Row>
+
+    <Row
+        android:keyHeight="50dp"
+        android:keyWidth="20%p"
+        android:rowEdgeFlags="bottom">
+        <Key
+            android:codes="900"
+            android:keyEdgeFlags="left"
+            android:keyLabel="STATS"
+            android:popupKeyboard="@xml/stats" />
+        <Key
+            android:codes="901"
+            android:keyLabel="PET" />
+        <Key
+            android:codes="903"
+            android:keyLabel="HEAL" />
+        <Key
+            android:codes="904"
+            android:keyLabel="PHEAL" />
+        <Key
+            android:codes="333"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/key_icon"
+            android:popupKeyboard="@xml/optionkey" />
+    </Row>
+
+</Keyboard>

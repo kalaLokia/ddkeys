@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/switch_heal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="50dp"
+                android:checked="false"
+                android:showText="true"
+                android:switchMinWidth="55dp"
+                android:text="@string/users"
+                android:textColor="#f2f2f2"
+                android:textSize="18sp"
+                android:thumb="@drawable/switch_thumb2"
+                android:track="@drawable/switch_track" />
+
+            <LinearLayout
+                android:id="@+id/layout_heal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/edtxt_shape1"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="5dp"
+                android:visibility="gone"
+                tools:ignore="NestedWeights">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/userr"
+                    android:textColor="@color/colorPurple"
+                    android:textSize="9sp" />
+
+                <EditText
+                    android:id="@+id/pfKey_2"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@android:color/transparent"
+                    android:inputType="phone"
+                    android:maxLength="2"
+                    android:textColor="#f2f2f2"
+                    android:textColorHint="#c5d6d1"
+                    android:textCursorDrawable="@drawable/edittext_light_green"
+                    android:textSize="16sp" />
+
+                <ImageButton
+                    android:id="@+id/btn_heal"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/btn_oktick" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/switch_pheal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="50dp"
+                android:checked="false"
+                android:showText="true"
+                android:switchMinWidth="55dp"
+                android:text="@string/pets"
+                android:textColor="#f2f2f2"
+                android:textSize="18sp"
+                android:thumb="@drawable/switch_thumb2"
+                android:track="@drawable/switch_track" />
+
+            <LinearLayout
+                android:id="@+id/layout_pheal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/edtxt_shape1"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="5dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/pett"
+                    android:textColor="@color/colorPurple"
+                    android:textSize="9sp" />
+
+                <EditText
+                    android:id="@+id/pfKey_3"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@android:color/transparent"
+                    android:inputType="phone"
+                    android:maxLength="2"
+                    android:textColor="#f2f2f2"
+                    android:textColorHint="#c5d6d1"
+                    android:textCursorDrawable="@drawable/edittext_light_green"
+                    android:textSize="16sp" />
+
+                <ImageButton
+                    android:id="@+id/btn_pheal"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/btn_oktick" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/textview_shape1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/healthnotify"
+            android:textColor="@color/colorTextW"
+            android:textSize="14sp" />
+    </FrameLayout>
+
+</LinearLayout>

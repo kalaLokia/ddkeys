@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="5dp"
+    android:keyHeight="7%p"
+    android:keyWidth="20%p"
+    android:verticalGap="5dp">
+    <Row>
+        <Key
+            android:codes="622"
+            android:keyLabel="search.R" />
+        <Key
+            android:codes="633"
+            android:keyLabel="travel.R" />
+        <Key
+            android:codes="667"
+            android:keyLabel="side.R" />
+    </Row>
+
+    <Row>
+        <Key
+            android:codes="999"
+            android:keyLabel="ping" />
+        <Key
+            android:codes="889"
+            android:keyLabel="party" />
+        <Key
+            android:codes="336"
+            android:keyLabel="options" />
+    </Row>
+
+</Keyboard>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="5dp"
+    android:keyHeight="7%p"
+    android:keyWidth="15%p"
+    android:verticalGap="5dp">
+    <Row>
+        <Key
+            android:codes="945"
+            android:keyLabel="GB" />
+        <Key
+            android:codes="946"
+            android:keyLabel="GS" />
+        <Key
+            android:codes="947"
+            android:keyLabel="GM" />
+    </Row>
+</Keyboard>

@@ -1,0 +1,81 @@
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="3dp"
+    android:keyHeight="9%p"
+    android:keyWidth="29%p"
+    android:verticalGap="3dp">
+
+    <Row>
+        <Key
+            android:codes="701"
+            android:keyEdgeFlags="left"
+            android:keyLabel="" />
+        <Key
+            android:codes="702"
+            android:keyLabel="" />
+        <Key
+            android:codes="703"
+            android:keyLabel="" />
+        <Key
+            android:codes="335"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/ic_return"
+            android:keyWidth="13%p" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="704"
+            android:keyEdgeFlags="left"
+            android:keyLabel="" />
+        <Key
+            android:codes="700"
+            android:keyIcon="@drawable/ic_location"
+            android:popupKeyboard="@xml/tags" />
+        <Key
+            android:codes="705"
+            android:keyLabel="" />
+        <Key
+            android:codes="909"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/ic_search"
+            android:keyWidth="13%p" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="706"
+            android:keyEdgeFlags="left"
+            android:keyLabel="" />
+        <Key
+            android:codes="707"
+            android:keyLabel="" />
+        <Key
+            android:codes="708"
+            android:keyLabel="" />
+        <Key
+            android:codes="699"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/ic_map"
+            android:keyWidth="13%p"
+            android:popupKeyboard="@xml/runes" />
+    </Row>
+    <Row
+        android:keyHeight="7%p"
+        android:keyWidth="25%p"
+        android:rowEdgeFlags="bottom">
+        <Key
+            android:codes="711"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@drawable/ic_notalk"
+            android:popupKeyboard="@xml/task" />
+        <Key
+            android:codes="712"
+            android:keyIcon="@drawable/ic_notalk" />
+        <Key
+            android:codes="713"
+            android:isRepeatable="true"
+            android:keyIcon="@drawable/ic_notalk" />
+        <Key
+            android:codes="714"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/ic_notalk" />
+    </Row>
+</Keyboard>

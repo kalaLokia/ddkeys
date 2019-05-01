@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:horizontalGap="5dp"
+    android:keyHeight="7%p"
+    android:keyWidth="20%p"
+    android:verticalGap="5dp">
+    <Row>
+        <Key
+            android:codes="780"
+            android:keyHeight="14.80%p"
+            android:keyLabel="Sk Rune" />
+        <Key
+            android:codes="781"
+            android:keyLabel="Cf Rune" />
+        <Key
+            android:codes="782"
+            android:keyLabel="Rm Rune" />
+        <Key
+            android:codes="783"
+            android:keyLabel="Me Rune" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="784"
+            android:horizontalGap="82dp"
+            android:keyLabel="Sa Rune" />
+        <Key
+            android:codes="785"
+            android:keyLabel="Fr Rune" />
+        <Key
+            android:codes="786"
+            android:keyLabel="Rg Rune" />
+    </Row>
+</Keyboard>
